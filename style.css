@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/* TELA INTEIRA DE LOGIN */
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    /* justify-content CORRESPONDE AO EIXO X (VERTICAL) */
+    align-items: center;
+    /* align-items CORRESPONDE AO EIXO Y (HORIZONTAL) */
+}
+
+/* PARTE DO LOGIN À ESQUERDA (TEXTO E IMAGEM) */
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* TEXTO DO LOGIN */
+
+.left-login > h1 {
+    font-size: 3vw;
+    color: #ff4343;
+}
+
+/* IMAGEM ANIMAÇÃO */
+
+.left-login-image {
+    width: 35vw;
+}
+
+/* LOGIN  À DIREITA */
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #18181a;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #00000056;
+}
+
+/* TÍTULO "LOGIN" */
+
+.card-login > h1 {
+    color: #ff0000;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* ESPAÇO DOS COISAS DE LOGIN */
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* ⁡⁢⁣⁢QUANDO USAMOS O flex-direction O align-items PASSA A SER O EIXO X (VERTICAL) E O justify-content PASSA A SER O EIXO Y (HORIZONTAL), EM OUTRAS PALAVRAS, ELES INVERTEM.⁡ */
+    margin: 10px 0px;
+}
+
+/* ONDE BOTA O USUÁRIO E SENHA */
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ff43434d;
+    color: #ffffff;
+    font-size: 12pt;
+    box-shadow: 0 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* CAIXAS DE TEXTO DO LOGIN */
+
+.textfield > label {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* TEXTO DENTRO DO LABEL DE LOGIN */
+
+.textfield > input::placeholder {
+    color: #ffffff94;
+}
+
+/* BOTÃO DE LOGIN */
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background: #ff0000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ff4343;
+}
+
+/* LINKS DE ESQUECI A SENHA E CRIAR CONTA */
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* "Ainda não tem cadastro? " */
+
+p {
+    color: #ffffff94;
+}
+
+.criar_conta {
+    flex-direction: column;
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+    /* a {
+    display: flex;
+    justify-content: center;
+    }
+} */
+
+/* @media only screen and (min-width: 950px) {
+    a {
+    display: flex;
+    justify-content: center;
+    }
+} */
+
+/* @media only screen and (max-width: 780px) {
+    .criar_conta {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .conta_criar {
+        display: flex;
+        flex-direction: column;
+    }    
+} */
+
+@media only screen and (max-width: 600px) {
+    .main-login {
+        flex-direction: column;
+        display: flex;
+    }
+    .left-login > h1 {
+        display: none;
+    }
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+    .left-login-image {
+        width: 50vh;
+    }
+    .card-login {
+        width: 85%;
+    }
+}
