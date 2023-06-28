@@ -6,9 +6,9 @@ Levando em conta as alterações que fiz, bem como: <br>
 2. As cores primárias trocadas por cores que gosto mais;<br>
 3. Um "lnr-eye" que coloquei para vizualizar e esconder a senha colocada;<br>
 4. E funções se caso a pessoa esquecer a senha ou não tiver cadastro ainda.
-# Desktop:<br>![Preview Desktop](/img/preview_desktop.png)
-# Tablet:<br>![Preview Tablet](/img/preview_tablet.png)
-# Mobile:<br>![Preview Mobile](/img/preview_mobile.png) 
+# Desktop:<br>![Preview Desktop](/preview/preview_desktop.png)
+# Tablet:<br>![Preview Tablet](/preview/preview_tablet.png)
+# Mobile:<br>![Preview Mobile](/preview/preview_mobile.png) 
 # Vídeo-aula que aprendi a fazer isso replicando o que foi passado:
 [![TELA DE LOGIN COM TEMA DARK](https://i.ytimg.com/vi/69-WfrVBli8/maxresdefault.jpg)](https://youtu.be/69-WfrVBli8)<br>**Créditos: Markzuel**
 # Vídeo-aula que aprendi as funções "Esqueceu a senha?" e "Ainda não tem cadastro? Crie uma conta."
