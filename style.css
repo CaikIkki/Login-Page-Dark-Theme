@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
 }
 
 body * {
@@ -37,6 +38,8 @@ body * {
 
 .left-login > h1 {
     font-size: 3vw;
+    padding-left: 30%;
+    padding-right: 10%;
     color: #ff4343;
 }
 
@@ -165,6 +168,8 @@ p {
     }
 }
 
+/* TENTEI COLOCAR UM EMBAIXO DO OUTRO COMO COLUNA */
+
     /* a {
     display: flex;
     justify-content: center;
@@ -196,7 +201,10 @@ p {
         display: flex;
     }
     .left-login > h1 {
-        display: none;
+        font-size: 22px;
+        padding-left: 0;
+        padding-right: 0;
+        /* display: none; */
     }
     .left-login {
         width: 100%;
@@ -210,6 +218,7 @@ p {
         width: 50vh;
     }
     .card-login {
-        width: 85%;
+        width: 80%;
+        height: 415px;
     }
 }
